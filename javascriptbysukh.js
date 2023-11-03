@@ -1,13 +1,6 @@
 //Data: assume we have a list of 5 movies
-let topMovies = [{id: 0, title: "The Shawshank Redemption", year: 1994, image_url: "images/movie0.jpg"},
-         {id: 1, title: "The Godfather ", year: 1972, image_url: "images/movie1.jpg"},
-         {id: 2, title: "The Dark Knight", year: 2008, image_url: "images/movie2.jpg"},
-         {id: 3, title: "12 Angry Men", year: 1957, image_url: "images/movie3.jpg"},
-         {id: 4, title: " Schindler\'s List", year: 1993, image_url: "images/movie4.jpg"},
-	{id: 5, title: " Avatar", year: 1993, image_url: "images/movie5.jpg"},
 	
-        ];
-		
+        		
 
 //Slideshow: Automatic
 let autoSlideIndex = 0;//Initial slide = 0
@@ -24,5 +17,16 @@ function autoSlideShow() {
   //Wait 2 seconds
   setTimeout(autoSlideShow, 2000);//Auto change slide every 2 seconds
 }
-
+<style>
+ .g{text-align:center; width:2000px; height:100px; background-color:white; transition-duration:5s;}
+ .g:hover{
+ width:500px;}
+ </style>
+ <h2><div class=q>New and Now</div></h2>
+	            
 autoSlideShow() // Call to run auto slideshow
+function changecolor()
+{
+	var li = document.getelementById('d');
+	li.style.color = 'grey';
+}
