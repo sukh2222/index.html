@@ -25,8 +25,3 @@ function autoSlideShow() {
  <h2><div class=q>New and Now</div></h2>
 	            
 autoSlideShow() // Call to run auto slideshow
-function changecolor()
-{
-	var li = document.getelementById('d');
-	li.style.color = 'grey';
-}
